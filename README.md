@@ -27,3 +27,11 @@ la charla.
 5. Tu editor favorito (aunque [Atom](https://atom.io/) tiene un plugin para
 [ember-cli](https://atom.io/packages/ember-cli-helper) y unos pocos snippets
 para [ember](https://atom.io/packages/ember-snippets) en sí).
+
+## Dudas
+
+> Tengo dudas, ¿cómo te contacto?
+
+Puedes contactarme por [twitter](https://twitter.com/Serabe), pero preferiría
+que [abrieses un Issue en Github](https://github.com/Serabe/codemotion-ember/issues/new)
+para poder tener las dudas centralizadas.
