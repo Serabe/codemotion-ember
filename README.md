@@ -16,17 +16,40 @@ deberíais visitar este proyecto un par de días antes del taller para bajaros l
 archivos necesarios para la realización del mismo y así ahorrar tiempo durante
 la charla.
 
-### Material a ir instalando
+### Instalar las herramientas
 
 1. [Node.js](http://nodejs.org/)
-2. [ember-cli](http://www.ember-cli.com/)
-3. Tu navegador favorito (mientras que dicho navegador sea Chrome o Firefox).
-4. Ember Inspector
+2. [ember-cli](http://www.ember-cli.com/): instalarlo de manera global (`npm
+   install -g ember-cli`)
+3. [bower](http://bower.io/): instalarlo de manera global (`npm install -g bower`).
+4. Tu navegador favorito (mientras que dicho navegador sea Chrome o Firefox,
+   que incluso tiene una nueva edición especial desarrollador).
+5. Ember Inspector
   1. [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
   2. [Chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-5. Tu editor favorito (aunque [Atom](https://atom.io/) tiene un plugin para
+6. Tu editor favorito (aunque [Atom](https://atom.io/) tiene un plugin para
 [ember-cli](https://atom.io/packages/ember-cli-helper) y unos pocos snippets
-para [ember](https://atom.io/packages/ember-snippets) en sí).
+para [ember](https://atom.io/packages/ember-snippets) en sí). Yo seguramente
+use VIM.
+
+### Instalar el proyecto
+
+1. Clónalo: `git clone https://github.com/Serabe/codemotion-ember.git cm-em`
+2. `cd cm-em`
+3. `npm install`
+4. `bower install`
+
+### Lanzando el server
+
+`ember server` o `ember s`, para abreviar. Ve a `http://localhost:4200`.
+
+Para ver los tests, ver a `http://localhost:4200/tests/`.
+
+### Building
+
+`ember build --environment production`...
+
+¿Quién querría construir un proyecto con el entorno desarrollo?
 
 ## Dudas
 
